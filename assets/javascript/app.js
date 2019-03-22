@@ -84,7 +84,7 @@ $(document).ready(function() {
 			$("#time").text("Time: " + time + " seconds");
 			setTimeout(() => {
 				startGame();
-			}, 1000 * 1);
+			}, 1000 * 5);
 			$("#question").text(
 				"The correct answer was " + trivia[questionCounter - 1].answer
 			);
