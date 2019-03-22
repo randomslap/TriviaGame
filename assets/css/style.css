@@ -1,0 +1,23 @@
+header,
+body {
+	text-align: center;
+	background-color: yellow;
+	font-family: "Righteous", cursive;
+}
+ol {
+    list-style-type: none;
+    margin-left: -35px;
+}
+button {
+    padding: 5px;
+    margin: 5px;
+    background-color: white;
+    border-radius: 5px;
+    border-color: white;
+    border: none;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+

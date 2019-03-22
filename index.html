@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+		<title>Trivial Trivia</title>
+	</head>
+	<header>
+		<h1>Totally Trivial Trivia!</h1>
+	</header>
+	<body>
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-4">
+					<div id="time">Time: 30 seconds</div>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-md-6">
+					<h2 id="status"></h2>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-md-6">
+					<div id="question"></div>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-md-4">
+                    <button id="startBtn">Start!</button>
+					<ol id="choices"></ol>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-md-6">
+					<div id="correct"></div>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-md-6">
+					<div id="missed"></div>
+				</div>
+			</div>
+		</div>
+    </body>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="assets/javascript/app.js"></script>
+</html>
